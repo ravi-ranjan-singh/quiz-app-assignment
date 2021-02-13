@@ -1,0 +1,26 @@
+.title-bar {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+.title-bar h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.title-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.title-bar i {
+  color: #21e6c1;
+  font-size: 30px;
+}
+
+.title-bar button:focus {
+  outline: none;
+}

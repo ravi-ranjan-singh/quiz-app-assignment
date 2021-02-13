@@ -1,0 +1,28 @@
+.sidebar {
+  width: 30%;
+  height: 100%;
+  border-right: 1px solid black;
+  background-image: linear-gradient(
+      rgba(0, 42, 250, 0.85),
+      rgba(0, 42, 253, 0.7)
+    ),
+    url('./../../assets/side.jpg');
+  background-position: center;
+  color: white;
+  background-size: cover;
+  letter-spacing: 1px;
+}
+
+.sidebar h3 {
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.sidebar li {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 20px !important;
+  word-spacing: 5px;
+}
